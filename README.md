@@ -7,11 +7,11 @@ Implementation of "United Defocus Blur Detection and Deblurring via Adversarial 
    * `FC`: 500 natural full clear images.
 * `test_data of DBD`: 
    * `CUHK`: Contains 100 testing images of CUHK Dataset and it's GT.
-   * `DUT`: Contains 400 testing images of DUT Dataset and it's GT.
+   * `DUT`: Contains 500 testing images of DUT Dataset and it's GT.
 
 * `test_data of Deblurring`:
    * `CUHK`: Contains 100 testing images.
-   * `DUT`: Contains 400 testing images.
+   * `DUT`: Contains 500 testing images.
    * `DP`: Contains 76 testing images of DP Dataset and it's GT.
 
 Download and unzip datasets from https://pan.baidu.com/s/1_3Z7w9IrlqOU25QbVdhytQ, password: aktv to "./dataset".
