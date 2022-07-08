@@ -14,7 +14,7 @@ Implementation of "United Defocus Blur Detection and Deblurring via Adversarial 
    * `DUT`: Contains 400 testing images.
    * `DP`: Contains 76 testing images of DP Dataset and it's GT.
 
-Download and unzip datasets from https://pan.baidu.com/s/1_3Z7w9IrlqOU25QbVdhytQ, password: aktv under "./dataset".
+Download and unzip datasets from https://pan.baidu.com/s/1_3Z7w9IrlqOU25QbVdhytQ, password: aktv to "./dataset".
 
 
 # Test
