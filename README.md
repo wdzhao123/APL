@@ -3,7 +3,7 @@ Implementation of "United Defocus Blur Detection and Deblurring via Adversarial 
 
 # Datasets
 * `train_data`:
-   * `1204source`: Contains 604 training images of CUHK Dataset and 600 training images of DUT Dataset;
+   * `1204source`: Contains 604 training images of CUHK Dataset and 600 training images of DUT Dataset.
    * `FC`: 500 natural full clear images.
 * `test_data of DBD`: 
    * `CUHK`: Contains 100 testing images of CUHK Dataset and it's GT.
@@ -42,7 +42,9 @@ You can use the following command to train：
 
 # Eval
 ### DBD
-If you want to use Fmax and MAE to evaluate the results, you can run `./evaluate_dbd/evaluate.m` in MATLAB. It shows the PR curve and F-measure curve at the same time.
+If you want to use Fmax and MAE to evaluate the results, you can run the following code in MATLAB. It shows the PR curve and F-measure curve at the same time.
+
+>./evaluate_dbd/evaluate.m
 
 ### Deblurring
 If you want to use PSNR, SSIM and MAE to evaluate the result, use the following code:
