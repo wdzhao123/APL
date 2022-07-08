@@ -14,7 +14,7 @@ Implementation of "United Defocus Blur Detection and Deblurring via Adversarial 
    * `DUT`: Contains 500 testing images.
    * `DP`: Contains 76 testing images of DP Dataset and it's GT.
 
-Download and unzip datasets from https://pan.baidu.com/s/1_3Z7w9IrlqOU25QbVdhytQ, password: aktv to "./dataset".
+Download and unzip datasets from https://github.com/shangcai1/SG [[1]](#1) to "./dataset". Add testset of DP datasets from https://ln2.sync.com/dl/c45358c50/r7kpybwk-xw8hhszh-qkj249ap-y8k2344d/view/default/10770664840008 [[2]](#2) to "./dataset/test/DP".
 
 
 # Test
@@ -23,7 +23,7 @@ You can use the following command to test：
 >python test.py --image_path TEST_DATA_PATH --result_save_path RESULT_IMAGE_PATH
 
 You can use the following model to output results directly.Here is our parameters:
-baidu link: https://pan.baidu.com/s/1sAbhPioPCLrsAid1W8UMAg?pwd=t8hq passward: t8hq
+baidu link: https://pan.baidu.com/s/1sAbhPioPCLrsAid1W8UMAg?pwd=t8hq password: t8hq
 
 Put "DBD.pth" and "deblur.pth" in "./saved_models".
 
@@ -50,3 +50,12 @@ If you want to use Fmax and MAE to evaluate the results, you can run the followi
 If you want to use PSNR, SSIM and MAE to evaluate the result, use the following code:
 
 >python evaluate.py --image_save_path RESULT_IMAGE_PATH --test_gt_path GT_PATH
+
+## References
+<a id="1">[1]</a> 
+Zhao, W., Shang, C., Lu, H.: Self-generated defocus blur detection via dual adversarial discriminators. In: Proceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition. pp. 6933–6942 (2021) 5, 6, 12, 13
+
+<a id="2">[2]</a> 
+Abuolaim, A., Brown, M.S.: Defocus deblurring using dual-pixel data. In: European
+Conference on Computer Vision. pp. 111–126. Springer (2020) 2, 4, 6, 9, 10, 13
