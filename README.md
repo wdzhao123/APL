@@ -53,9 +53,8 @@ If you want to use PSNR, SSIM and MAE to evaluate the result, use the following 
 
 ## References
 <a id="1">[1]</a> 
-Zhao, W., Shang, C., Lu, H.: Self-generated defocus blur detection via dual adversarial discriminators. In: Proceedings of the IEEE/CVF Conference on Computer
-Vision and Pattern Recognition. pp. 6933–6942 (2021) 5, 6, 12, 13
+Zhao, W., Shang, C., Lu, H.: Self-generated defocus blur detection via dual adversarial discriminators. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.
 
 <a id="2">[2]</a> 
 Abuolaim, A., Brown, M.S.: Defocus deblurring using dual-pixel data. In: European
-Conference on Computer Vision. pp. 111–126. Springer (2020) 2, 4, 6, 9, 10, 13
+Conference on Computer Vision.
