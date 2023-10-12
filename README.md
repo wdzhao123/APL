@@ -24,6 +24,7 @@ You can use the following command to test：
 
 You can use the following model to output results directly.Here is our parameters:
 baidu link: https://pan.baidu.com/s/1sAbhPioPCLrsAid1W8UMAg?pwd=t8hq password: t8hq
+
 google drive: https://drive.google.com/drive/folders/1lPcoIY-lqKAvsfvuYUgB9mmM6YKBy2h8?usp=sharing
 
 Put "DBD.pth" and "deblur.pth" in "./saved_models".
